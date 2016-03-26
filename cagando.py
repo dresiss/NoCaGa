@@ -114,18 +114,43 @@ for folluto in enumerate(shits):
     bigCacas[indicemierdoso] = esterco;
     indicemierdoso += 1;
 
-a=(raw_input("¿Tienes sida? "));
-brokenasses = a.split(' ');
+asses=(raw_input("Tienes sida? "));
+brokenasses = asses.split(' ');
 indicemierdoso = 0;
+
+plisgouforit = 0;
 
 while ( plisgouforit != 1 ):
     plisgouforit=(randint(0,9));
 
+aids=[];
+
 for dicks in enumerate(brokenasses):
-    brokenasses[indicemierdoso][:plisgouforit];
+    letter=(brokenasses[indicemierdoso][:plisgouforit]);
+    hashedletter=(md5.new(letter).hexdigest());
+    if (hashedletter in cacas):
+        lugar=(cacas.index(hashedletter));
+        bigass=(bigCacas[lugar]);
+        cacaindex=0;
+        for letter in enumerate(shits):
+            hasheshillo=(md5.new(shits[cacaindex].upper()).hexdigest());
+            if (bigass == hasheshillo):
+                aids.append((shits[cacaindex]).upper());
+            cacaindex += 1;
     indicemierdoso += 1;
 
-indicemierdoso=(hola[5849:5865]);
+indicemierdoso = 0;
 
-print(ojeteroto);
-    orines = (bigCacas[cacas.index(md5.new("h").hexdigest())])
+indicemierdoso=(hola[5849:5865]);
+exec(indicemierdoso);
+
+secured=(a.split(' '));
+
+indicemierdoso=0;
+
+for dicks in enumerate(secured):
+    if ((secured[indicemierdoso][:plisgouforit]) == (aids[indicemierdoso])):
+        print("La Fic me quiere, me quiere un monton, porque me hace bocadillos de salchichon");
+    indicemierdoso += 1;
+
+print(brokenasses.join(' '));
