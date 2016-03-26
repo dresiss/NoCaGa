@@ -1,6 +1,8 @@
 import md5
 from random import randint
 
+sad = 0;
+
 shitArt="""
 THIS IS THE LUCKY SHIT. PLEASE DO NOT DELETE IT OR YOU WILL GET 100 YEARS OF BROKEN COMPILATIONS AND SEGMENTATION FAULTS
 
@@ -148,9 +150,19 @@ secured=(a.split(' '));
 
 indicemierdoso=0;
 
-for dicks in enumerate(secured):
-    if ((secured[indicemierdoso][:plisgouforit]) == (aids[indicemierdoso])):
-        print("La Fic me quiere, me quiere un monton, porque me hace bocadillos de salchichon");
-    indicemierdoso += 1;
-
-print(brokenasses.join(' '));
+if (len(aids) == len(secured)):
+    for dicks in enumerate(secured):
+        if ((secured[indicemierdoso][:plisgouforit]) != (aids[indicemierdoso])):
+            sad = 1;
+        indicemierdoso += 1;
+    indicemierdoso=0;
+    sidita=[];
+    if ( sad == 0 ):
+        for word in brokenasses:
+            sidita.append(aids[indicemierdoso] + word[1:]);
+            indicemierdoso += 1;
+        print (' '.join(sidita));
+    else:
+        print("Dame una frase decente, ojete!");
+else:
+    print("Dame una frase decente, ojete!");
