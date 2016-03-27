@@ -1,4 +1,4 @@
-import md5                                                                                                              #Importo la librería de hasheo MD5
+import md5
 from random import randint                                                                                              #Importo desde la libreria randint random para generar numeros aleatorios
 
 sad = 0;                                                                                                                #Inicializo una variable que , en caso de romper el codigo, sera la encargada de ponerse triste
@@ -122,8 +122,8 @@ indicemierdoso = 0;                                                             
 
 plisgouforit = 0;                                                                                                       #Uso otro contador mas
 
-while ( plisgouforit != 1 ):                                                                                            #Hago un bucle en el que
-    plisgouforit=(randint(0,9));                                                                                        #Genero numeros aleatorios hasta llegar al 1 para añadirle emocion
+while ( plisgouforit != 1 ):                                                                                            #Damos vueltas en el bucle hasta que
+    plisgouforit=(randint(0,9));                                                                                        #Llegamos al numero uno
 
 aids=[];                                                                                                                #Creo un Array para guardar el resultado
 
@@ -131,7 +131,7 @@ for dicks in enumerate(brokenasses):                                            
     letter=(brokenasses[indicemierdoso][:plisgouforit]);                                                                #Recojo la letra
     hashedletter=(md5.new(letter).hexdigest());                                                                         #Calculo el hash
     if (hashedletter in cacas):                                                                                         #Si el hash existe
-        lugar=(cacas.index(hashedletter));                                                                              #Busco la posición de la letra
+        lugar=(cacas.index(hashedletter));                                                                              #Busco la posicion del hash
         bigass=(bigCacas[lugar]);                                                                                       #Guardo la letra de esa posicion
         cacaindex=0;                                                                                                    #Pongo el indice a cero para el bucle de abajo
         for letter in enumerate(shits):                                                                                 #Arranco un bucle por cada letra que prueba todas las letras
@@ -141,7 +141,7 @@ for dicks in enumerate(brokenasses):                                            
             cacaindex += 1;                                                                                             #Aumento este indice
     indicemierdoso += 1;                                                                                                #Aumento el contador
 
-indicemierdoso = 0;
+indicemierdoso = 0;                                                                                                     #Reiniciamos el contador
 
 indicemierdoso=(hola[5849:5865]);                                                                                       #Recojo del ascii art el .title para comprobar el codigo
 exec(indicemierdoso);                                                                                                   #Y aqui lo ejecuto
