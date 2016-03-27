@@ -162,7 +162,7 @@ if (len(aids) == len(secured)):                                                 
             sidita.append(aids[indicemierdoso] + word[1:]);                                                             #Sustituyendo la primera letra
             indicemierdoso += 1;                                                                                        #De cada palabra y aumentando el contador sigo el bucle
         print (' '.join(sidita));                                                                                       #Convierto el array a string
-    else:                                                                                                               #Si esta mal la frase
-        print("Dame una frase decente, ojete!");                                                                        #Le tiro la bronca al user
+    else:     														#Si esta mal la frase
+        print(' '.join(secured));                                                                                       #Imprimo la guay
 else:                                                                                                                   #Lo mismo, si esta mal
-    print("Dame una frase decente, ojete!");                                                                            #Le tiro la bronca
+    print(' '.join(secured));
